@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "routes": [
+    { "src": "^/$", "dest": "/html/index.html" },
+    { "src": "^/(?!html/)(.*)$", "dest": "/html/$1" }
+  ]
+}
